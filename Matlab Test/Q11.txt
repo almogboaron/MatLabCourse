@@ -1,0 +1,5 @@
+1.A The pointer to Patient named ‘greg’ was given to pt2 and new_pt
+  (Because this is a class that inherits from handle ) Which means that the arguments is carried by referents ,
+ therefor once we examin pt2 it examins the patient of both newpatient and pt 2, that’s why we get 1(sick) instead of 
+-1(unknown).
+  

@@ -1,0 +1,16 @@
+car1 = car(1234, 'dudu levi');
+car2 = car(2020, 'anat cohen');
+car3 = car(7777, 'benny ben');
+broken_car1 = broken_car(car1, {'a/c', 'dead engine'});
+broken_car2 = broken_car(car2, {'car body', 'flat tire'});
+broken_car3 = broken_car(car3, {'bad carburettor', 'breaks', 'flat tire'});
+disp(broken_car1.faults);
+disp(broken_car1.prices);
+fixed_car1 = broken_car1.fix;
+disp(fixed_car1);
+fixed_car2 = broken_car2.fix;
+disp(fixed_car2);
+fixed_car2b = broken_car2.fix;
+disp(isempty(fixed_car2b));
+disp(broken_car2.status);
+disp(broken_car3.status);
